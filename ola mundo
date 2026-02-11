@@ -35,28 +35,25 @@ namespace OlaMundo
 
             //Console.WriteLine("Olá " + nome + ", você tem " + idade + " anos!!");
 
-            // declarar uma variável numérica inteira e atribuir um valor qualquer
+            //declarar UMA var númerica inteira e atribuir um valor qualquer
             //apresentar seu sucessor e seu antecessor
 
-            //int numero = 5;
+            //int n1 = 17;
 
-            //Console.WriteLine("Seu sucessor é: " + (numero + 1));
-            //Console.WriteLine("Seu antecessor é: "+  (numero - 1));
+            //Console.WriteLine("Número inteiro: 17");
+            //Console.WriteLine("sucessor: " + (n1 + 1));
+            //Console.WriteLine("antecessor: " + (n1 - 1));
 
             //declarar DUAS var numéricas inteiras e calcular:
-            //a soma do quadrado dos números
-            //e o quadrado da soma dos numeros
+            //a soma dos quadrados dos números 
+            //o quadrado da soma dos números
 
-            int n1 = 2;
-            int n2 = 5;
-            int raiz_n1 = (n1 * n1);
-            int raiz_n2 = (n2 * n2);
-            int soma = (raiz_n1 + raiz_n2);
-            int quadrado = (soma * soma);
+            int n1 = 10;
+            int n2 = 8;
 
-            Console.WriteLine("O quadrado dos número " + n1 + " é: " + raiz_n1 + "\n" + "O quadrado dos número " + n2 + " é: " + raiz_n2);
-            Console.WriteLine("A soma dos quadrados dos números é: " + soma);
-            Console.WriteLine("O quadrado da soma é " + quadrado);
+            Console.WriteLine("Soma das variaveis:" + (n1 + n2));
+            Console.WriteLine("Soma dos quadrados:" + (n1 * n1) + " e " + (n2 * n2) + " igual " + (n1 * n1 + n2 * n2));
+            Console.WriteLine("Quadrados das somas dos números:" + (n1 * n1 + n2 * n2) * (n1 * n1 + n2 * n2));
 
         }
 
