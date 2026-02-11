@@ -1,0 +1,65 @@
+using System;
+
+namespace OlaMundo
+{ // inicio
+    class Program
+    {
+        static void Main(string[] args) // método principal
+        {
+            // Console.WriteLine("Vai corinthianssssss!"); // comando escreva
+            // Console.WriteLine("2 + 3 é: " + (2 + 3));
+            // Console.WriteLine("2 - 3 é: " + (2 - 3));
+            // Console.WriteLine("2 * 3 é: " + (2 * 3));
+            // Console.WriteLine("2 / 3 é: " + (2 / 3));
+
+            // declaração de variáveis
+            // tipoDoDado nomeDaVariável
+            // int (numérico inteiro -> 0)
+            // double (numérico real -> 0.00) 
+            // bool (valor lógico -> V/F)
+            // char (uma unica letra -> 's')
+            // string (cadeia de caracteres -> "Zanetti Gostoso!")
+
+            // int n1 = 12;
+            // int n2 = 12;
+
+            // Console.WriteLine(n1 + n2);
+            // Console.WriteLine(Math.PI);
+
+            //declarar a var nome e idade
+            //e apresentar: "Olá Gaby, você tem x anos!!"
+
+            //string nome = "Gaby";
+            //int idade = 17;
+
+
+            //Console.WriteLine("Olá " + nome + ", você tem " + idade + " anos!!");
+
+            // declarar uma variável numérica inteira e atribuir um valor qualquer
+            //apresentar seu sucessor e seu antecessor
+
+            //int numero = 5;
+
+            //Console.WriteLine("Seu sucessor é: " + (numero + 1));
+            //Console.WriteLine("Seu antecessor é: "+  (numero - 1));
+
+            //declarar DUAS var numéricas inteiras e calcular:
+            //a soma do quadrado dos números
+            //e o quadrado da soma dos numeros
+
+            int n1 = 2;
+            int n2 = 5;
+            int raiz_n1 = (n1 * n1);
+            int raiz_n2 = (n2 * n2);
+            int soma = (raiz_n1 + raiz_n2);
+            int quadrado = (soma * soma);
+
+            Console.WriteLine("O quadrado dos número " + n1 + " é: " + raiz_n1 + "\n" + "O quadrado dos número " + n2 + " é: " + raiz_n2);
+            Console.WriteLine("A soma dos quadrados dos números é: " + soma);
+            Console.WriteLine("O quadrado da soma é " + quadrado);
+
+        }
+
+    }
+} // fim
+ 
