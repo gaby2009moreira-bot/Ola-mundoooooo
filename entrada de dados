@@ -1,0 +1,35 @@
+using System;
+
+namespace entradadedados
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Console.WriteLine("Hello World!");
+
+            int idade = 17;
+            double precoPrutudo = 1.99;
+            char sexo = 'f';
+            string nome = "gabyroba";
+            bool ligado = true;
+
+            Console.WriteLine(idade);
+            Console.WriteLine(precoPrutudo);
+            Console.WriteLine(sexo);
+            Console.WriteLine(nome);
+            Console.WriteLine(ligado);
+
+            Console.WriteLine("Olá" + nome);
+
+            int x = 3;
+            int y = 2;
+            Console.WriteLine(x + y);
+
+            //entrada de dados
+            Console.WriteLine("Digite o nome do usuário");
+            string userName = Console.ReadLine();
+            Console.WriteLine("O nome do usuário é" + userName);
+        }
+    }
+}
